@@ -1,5 +1,10 @@
 package jpu2018.dogfight.view;
 
+import java.util.Observable;
+
+import jpu2018.dogfight.controller.IOrderPerformer;
+import jpu2018.dogfight.model.IDogfightModel;
+
 public class DogfightView implements IViewSystem, Runnable{
 
 	@Override
@@ -11,12 +16,8 @@ public class DogfightView implements IViewSystem, Runnable{
 	public DogfightView(IOrderPerformer orderPerformer, IDogfightModel dogfightModel, Observable observable) {
 		
 	}
-
-	private void run() {
-		
-	}
 	
-	public displayMessage(String message) {
+	public void displayMessage(String message) {
 		
 	}
 	
