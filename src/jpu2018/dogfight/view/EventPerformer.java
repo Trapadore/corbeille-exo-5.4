@@ -1,5 +1,7 @@
 package jpu2018.dogfight.view;
 
-public class EventPerformer {
+import jpu2018.gameframe.IEventPerformer;
+
+public class EventPerformer implements IEventPerformer{
 
 }
