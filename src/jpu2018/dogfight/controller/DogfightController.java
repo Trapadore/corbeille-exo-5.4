@@ -5,10 +5,10 @@ import jpu2018.dogfight.view.IViewSystem;
 
 public class DogfightController implements IOrderPerformer {
 	
-	IViewSystem viewSystem;
-	IDogfightModel dogfightModel;
+	private IViewSystem viewSystem;
+	private IDogfightModel dogfightModel;
 	
-	int TIME_SLEEP = 30;
+	private int TIME_SLEEP = 30;
 	
 	DogfightController(IDogfightModel dogfightModel) {
 		this.dogfightModel = dogfightModel;
@@ -27,11 +27,11 @@ public class DogfightController implements IOrderPerformer {
 		this.viewSystem = viewSystem;
 	}
 	
-	void lauchMissile(int player) {
+	public void lauchMissile(int player) {
 		
 	}
 	
-	void gameLoop() {
+	public void gameLoop() {
 		
 	}
 }
