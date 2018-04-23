@@ -8,7 +8,7 @@ public class DogfightModel implements IDogfightModel{
 	public IArea getArea() {
 		
 	}
-	public void buildArea(DImension dimension) {
+	public void buildArea(Dimension dimension) {
 		
 	}
 	public void addMobile(IMobile Mobile) {
