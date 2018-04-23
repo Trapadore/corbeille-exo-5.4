@@ -3,57 +3,10 @@ import java.awt.Color;
 import java.awt.Image;
 import java.awt.Point;
 
-public class Mobile {
+public class Mobile implements IMobile{
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image) {
 		
 	}
-	
-	public Direction getDirection() {
-		return null;
-	}
-	
-	public void setDirection(Direction direction) {
-		
-	}
-	
-	public Point getposition() {
-		return null;
-		
-	}
-	
-	public Dimension getDimension() {
-		return null;
-		
-	}
-	
-	public int getSpeed() {
-		return 0;
-		
-	}
-	
-	public int getWidth() {
-		return 0;
-		
-	}
-	
-	public int getHeight() {
-		return 0;
-		
-	}
-	
-	public void move() {
-		
-	}
-	
-	public void placeInArea(IArea area) {
-		
-	}
-	
-	public boolean isPlayer(int player) {
-		return false;
-		
-	}
-	
 	private void moveUp() {
 		
 	}
@@ -69,32 +22,83 @@ public class Mobile {
 	private void moveLeft() {
 		
 	}
+	@Override
+	public Direction getDirection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void setDirection(Direction direction) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public Point getPosition() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Dimension getDimension() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public int getHeight() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public int getSpeed() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public Image getImage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void placeInArea(IArea area) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public boolean isPlayer(int player) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public void setDogfightModel(DogfightModel dogfightModel) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public boolean hit() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean isWeapon() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 	public Color getColor() {
 		return null;
 		
 	}
 	
-	public IDogfightModel getDogfightMode() {
-		return null;
-		
-	}
-	
-	public void setDogfightMode(IDogfightModel dogfightModel) {
-		
-	}
-	
-	public boolean hit() {
-		return false;
-		
-	}
-	
-	public boolean isWeapon() {
-		return false;
-		
-	}
-	
-	public Image getImage() {
+	public IDogfightModel getDogfightModel() {
 		return null;
 		
 	}
