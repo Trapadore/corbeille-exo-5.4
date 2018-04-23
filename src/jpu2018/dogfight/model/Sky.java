@@ -1,6 +1,6 @@
 package jpu2018.dogfight.model;
 import java.awt.Color;
 
-public class Sky {
+public class Sky implements IArea{
 
 }
