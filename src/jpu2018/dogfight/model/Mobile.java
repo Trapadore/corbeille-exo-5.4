@@ -3,7 +3,6 @@ import java.awt.Color;
 import java.awt.Image;
 import java.awt.Point;
 
-<<<<<<< HEAD
 public class Mobile {
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image) {
 		
@@ -99,13 +98,6 @@ public class Mobile {
 		return null;
 		
 	}
-	
-=======
-public abstract class Mobile implements IMobile{
-	private int speed;	
->>>>>>> branch 'master' of https://github.com/Snargol/corbeille-exo-5.4.git
-	
-	
 }
 
 
