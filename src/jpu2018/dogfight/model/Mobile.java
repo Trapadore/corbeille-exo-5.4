@@ -54,19 +54,19 @@ public class Mobile {
 		
 	}
 	
-	private void mooveUp() {
+	private void moveUp() {
 		
 	}
 	
-	private void mooveRight() {
+	private void moveRight() {
 		
 	}
 	
-	private void mooveDown() {
+	private void moveDown() {
 		
 	}
 	
-	private void mooveLeft() {
+	private void moveLeft() {
 		
 	}
 	

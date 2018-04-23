@@ -12,78 +12,21 @@ public class Missile extends Mobile{
 	private int distanceTraveled = 0;
 	
 	public Missile(Direction direction, Dimension dimension) {
-		
+		super(direction, null, dimension, SPEED, IMAGE);
 	}
+	
 	public static int getWidthWithADierection(Direction direction) {
-		
+		return WIDTH;
 	}
 	public static int getHeightWithADierection(Direction direction) {
-		
+		return HEIGHT;
 	}
+	
 	public void move() {
 		
 	}
 	public boolean isWeapon() {
-		
-	}
-	@Override
-	public Direction getDirection() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public void setDirection(Direction direction) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public Point getPosition() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public Dimension getDimension() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public int getWidth() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	@Override
-	public int getHeight() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	@Override
-	public int getSpeed() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	@Override
-	public Image getImage() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public void placeInArea(IArea area) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public boolean isPlayer(int player) {
-		// TODO Auto-generated method stub
 		return false;
 	}
-	@Override
-	public void setDogfightModel(DogfightModel dogfightModel) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public boolean hit() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
 }
